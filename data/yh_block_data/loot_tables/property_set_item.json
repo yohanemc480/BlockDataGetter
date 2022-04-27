@@ -1,0 +1,5620 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:stone",
+        "functions": [
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{yh_property_set_item:1b}"
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{face:floor}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "face": "floor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{face:wall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "face": "wall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{face:ceiling}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "face": "ceiling"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{facing:north}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "facing": "north"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{facing:south}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "facing": "south"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{facing:west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "facing": "west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{facing:east}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "facing": "east"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{powered:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "powered": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{powered:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "powered": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{half:upper}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "half": "upper"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{half:lower}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "half": "lower"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hinge:left}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hinge": "left"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hinge:right}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hinge": "right"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{open:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "open": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{open:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "open": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{waterlogged:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "waterlogged": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{waterlogged:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "waterlogged": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{in_wall:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "in_wall": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{in_wall:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "in_wall": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{persistent:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "persistent": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{persistent:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "persistent": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{axis:x}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "axis": "x"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{axis:y}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "axis": "y"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{axis:z}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "axis": "z"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{stage:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "stage": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{stage:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "stage": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:8}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 8
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:9}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:10}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 10
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:11}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 11
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:12}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 12
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:13}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 13
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:14}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 14
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{rotation:15}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "rotation": 15
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:top}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "top"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:bottom}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "bottom"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:double}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "double"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{half:top}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "half": "top"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{half:bottom}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "half": "bottom"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:straight}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "straight"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:inner_left}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "inner_left"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:inner_right}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "inner_right"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:outer_left}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "outer_left"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:outer_right}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "outer_right"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:north_south}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "north_south"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:east_west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "east_west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:ascending_east}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "ascending_east"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:ascending_west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "ascending_west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:ascending_north}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "ascending_north"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:ascending_south}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "ascending_south"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{facing:up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "facing": "up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{facing:down}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "facing": "down"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:none}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": "none"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:low}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": "low"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:tall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": "tall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:none}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": "none"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:low}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": "low"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:tall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": "tall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:none}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": "none"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:low}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": "low"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:tall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": "tall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{up:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "up": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{up:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "up": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:none}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": "none"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:low}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": "low"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:tall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": "tall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{leaves:none}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "leaves": "none"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{leaves:small}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "leaves": "small"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{leaves:large}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "leaves": "large"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{honey_level:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "honey_level": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{honey_level:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "honey_level": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{honey_level:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "honey_level": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{honey_level:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "honey_level": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{honey_level:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "honey_level": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{honey_level:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "honey_level": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{attachment:floor}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "attachment": "floor"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{attachment:ceiling}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "attachment": "ceiling"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{attachment:single_wall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "attachment": "single_wall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{attachment:double_wall}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "attachment": "double_wall"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{tilt:none}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "tilt": "none"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{tilt:unstable}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "tilt": "unstable"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{tilt:partial}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "tilt": "partial"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{tilt:full}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "tilt": "full"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{occupied:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "occupied": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{occupied:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "occupied": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{part:head}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "part": "head"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{part:foot}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "part": "foot"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{candles:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "candles": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{candles:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "candles": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{candles:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "candles": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{candles:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "candles": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{lit:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "lit": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{lit:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "lit": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_bottle_0:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_bottle_0": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_bottle_0:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_bottle_0": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_bottle_1:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_bottle_1": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_bottle_1:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_bottle_1": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_bottle_2:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_bottle_2": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_bottle_2:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_bottle_2": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{down:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "down": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{down:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "down": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{drag:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "drag": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{drag:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "drag": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:8}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 8
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:9}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:10}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 10
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:11}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 11
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:12}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 12
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:13}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 13
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:14}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 14
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:15}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 15
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bites:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bites": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{signal_fire:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "signal_fire": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{signal_fire:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "signal_fire": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:16}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 16
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:17}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 17
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:18}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 18
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:19}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 19
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:20}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 20
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:21}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 21
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:22}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 22
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:23}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 23
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:24}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 24
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{age:25}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "age": 25
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{berries:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "berries": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{berries:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "berries": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{conditional:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "conditional": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{conditional:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "conditional": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:single}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "single"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:left}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "left"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:right}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "right"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{mode:compare}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "mode": "compare"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{mode:subtract}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "mode": "subtract"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:8}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 8
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{inverted:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "inverted": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{inverted:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "inverted": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:8}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 8
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:9}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:10}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 10
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:11}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 11
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:12}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 12
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:13}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 13
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:14}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 14
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{power:15}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "power": 15
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{triggered:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "triggered": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{triggered:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "triggered": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{eye:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "eye": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{eye:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "eye": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{moisture:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "moisture": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{snowy:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "snowy": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{snowy:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "snowy": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{enabled:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{enabled:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "enabled": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:down_east}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "down_east"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:down_north}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "down_north"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:down_south}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "down_south"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:down_west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "down_west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:up_east}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "up_east"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:up_north}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "up_north"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:up_south}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "up_south"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:up_west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "up_west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:west_up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "west_up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:east_up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "east_up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:north_up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "north_up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{orientation:south_up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "orientation": "south_up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_record:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_record": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_record:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_record": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hanging:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hanging": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hanging:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hanging": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_book:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_book": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{has_book:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "has_book": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:9}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:10}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 10
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:11}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 11
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:12}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 12
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:13}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 13
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:14}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 14
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{level:15}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "level": 15
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:normal}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "normal"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{type:sticky}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "type": "sticky"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:harp}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "harp"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:basedrum}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "basedrum"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:snare}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "snare"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:hat}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "hat"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:bass}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "bass"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:flute}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "flute"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:bell}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "bell"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:guitar}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "guitar"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:chime}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "chime"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:xylophone}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "xylophone"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:iron_xylophone}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "iron_xylophone"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:cow_bell}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "cow_bell"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:didgeridoo}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "didgeridoo"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:bit}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "bit"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:banjo}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "banjo"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{instrument:pling}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "instrument": "pling"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:8}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 8
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:9}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:10}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 10
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:11}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 11
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:12}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 12
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:13}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 13
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:14}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 14
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:15}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 15
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:16}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 16
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:17}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 17
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:18}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 18
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:19}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 19
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:20}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 20
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:21}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 21
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:22}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 22
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:23}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 23
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{note:24}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "note": 24
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{extended:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "extended": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{extended:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "extended": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{short:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "short": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{short:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "short": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{thickness:tip_merge}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "thickness": "tip_merge"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{thickness:tip}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "thickness": "tip"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{thickness:frustum}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "thickness": "frustum"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{thickness:middle}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "thickness": "middle"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{thickness:base}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "thickness": "base"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{vertical_direction:up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "vertical_direction": "up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{vertical_direction:down}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "vertical_direction": "down"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:south_east}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "south_east"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:south_west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "south_west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:north_west}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "north_west"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{shape:north_east}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "shape": "north_east"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": "up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{east:side}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "east": "side"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": "up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{north:side}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "north": "side"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": "up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{south:side}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "south": "side"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:up}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": "up"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{west:side}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "west": "side"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{delay:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "delay": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{delay:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "delay": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{delay:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "delay": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{delay:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "delay": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{locked:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "locked": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{locked:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "locked": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{charges:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "charges": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{charges:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "charges": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{charges:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "charges": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{charges:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "charges": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{charges:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "charges": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bottom:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bottom": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{bottom:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "bottom": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{distance:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "distance": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{sculk_sensor_phase:inactive}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "sculk_sensor_phase": "inactive"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{sculk_sensor_phase:active}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "sculk_sensor_phase": "active"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{sculk_sensor_phase:cooldown}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "sculk_sensor_phase": "cooldown"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{pickles:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "pickles": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{pickles:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "pickles": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{pickles:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "pickles": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{pickles:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "pickles": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:5}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 5
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:6}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 6
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:7}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 7
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{layers:8}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "layers": 8
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{mode:save}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "mode": "save"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{mode:load}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "mode": "load"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{mode:corner}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "mode": "corner"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{mode:data}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "mode": "data"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{unstable:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "unstable": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{unstable:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "unstable": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{attached:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "attached": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{attached:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "attached": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{disarmed:true}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "disarmed": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{disarmed:false}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "disarmed": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{eggs:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "eggs": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{eggs:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "eggs": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{eggs:3}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "eggs": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{eggs:4}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "eggs": 4
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hatch:0}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hatch": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hatch:1}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hatch": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{property:{hatch:2}}",
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "state": {
+                  "hatch": 2
+                }
+              }
+            }
+          }
+        ]
+      }
+          ]
+        }
+      ]
+    }
+  ]
+}
