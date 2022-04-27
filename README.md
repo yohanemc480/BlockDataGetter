@@ -15,10 +15,9 @@
 
 # 検知可能な項目
 ### ブロックid一覧
-https://github.com/yohanemc480/BlockDataGetter/tree/main/data/yh_block_data/Detectable/ID.txt
+https://github.com/yohanemc480/BlockDataGetter/blob/main/data/yh_block_data/Detectable/ID.txt
 ### ブロック状態一覧
-https://github.com/yohanemc480/BlockDataGetter/tree/main/data/yh_block_data/Detectable/Property.txt
-
+https://github.com/yohanemc480/BlockDataGetter/blob/main/data/yh_block_data/Detectable/Property.txt
 # コンタクト
 https://twitter.com/yohanemc480
 
